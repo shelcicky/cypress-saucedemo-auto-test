@@ -1,5 +1,23 @@
 {
+  "author": "Shelcicky Wilkerson",
+  "version": "0.0.1",
+  "description": "Front end test automation demonstration project, using Cypress tool.",
   "dependencies": {
     "cypress": "^13.12.0"
-  }
+  },
+  "scripts": {
+    "e2e:chrome": "cypress run --browser chrome --headed",
+    "e2e:chrome:headless": "cypress run --browser chrome",
+    "e2e": "cypress run --browser electron --headed",
+    "e2e:headless": "cypress run --browser electron"
+  },
+  "keywords": [
+    "cypress-saucedemo-auto-test",
+    "cypress",
+    "automated",
+    "test",
+    "tests",
+    "sauce",
+    "front end"
+  ]
 }
